@@ -1,0 +1,8 @@
+server:
+  port: 17001
+rocketmq:
+  name-server: 192.168.2.166:9876
+  producer:
+    group: springbootGroup
+
+

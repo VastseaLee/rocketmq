@@ -31,6 +31,13 @@
             <artifactId>rocketmq-client</artifactId>
             <version>4.9.2</version>
         </dependency>
+
+        <!-- 权限相关 在broker端开启aclEnable=true配置,然后配置账户以及账户的权限 -->
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-acl</artifactId>
+            <version>4.9.2</version>
+        </dependency>
     </dependencies>
 
     <build>
